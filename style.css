@@ -10,16 +10,16 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 7rem 13rem 4rem 13rem;
+    margin: 9rem 13rem 4rem 13rem;
 }
-.container1{
+.p-container{
     background-color: hsl(244, 38%, 16%);
     display: flex;
     justify-content: center;
     color: white;
     border-radius: 8px 0px 0px 8px;
 }
-.container1 h1,p{
+.p-container h1,p{
     white-space: pre-line; 
 }
 .content{
@@ -28,7 +28,7 @@ body{
 span{
     color: hsl(277, 64%, 61%);
 }
-.container2{
+.s-container{
     background-color: hsl(277, 84%, 40%);
     border-radius: 0px 8px 8px 0px;
 }
@@ -40,7 +40,7 @@ img{
 }
 .main-heading{
     padding-bottom: 25px;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .main-heading, .stats{
     font-weight: 700;
@@ -48,7 +48,7 @@ img{
 .main-paragraph{
     color: hsla(0, 0%, 100%, 0.75);
     padding-bottom: 60px;
-    font-size: 13px;
+    font-size: 0.813rem;
     line-height: 20px;
 }
 .statistics{
@@ -59,7 +59,7 @@ img{
 .stat-headings{
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.688rem;
     padding-top: 5px;
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -80,26 +80,26 @@ img{
     .mobile{
         display: unset;
     }
-    .container2{
+    .s-container{
         border-radius: 8px 8px 0px 0px;
     }
     img{
         border-radius: 8px 8px 0px 0px;
     }
-    .container1{
+    .p-container{
         text-align: center;
         padding: 25px;
         border-radius: 0px 0px 8px 8px;
     }
-    .container1 h1,p{
+    .p-container h1,p{
         white-space: unset; 
     }
     .main-heading{
-        font-size: 25px;
+        font-size: 1.563rem;
     }
     .main-paragraph{
         padding-bottom: 10px;
-        font-size: 13px;
+        font-size: 0.813rem;
     }
     .statistics{
         display: block;
@@ -109,6 +109,6 @@ img{
         padding-top: 22px;
     }
     .stats{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
